@@ -1,0 +1,45 @@
+.main-container {
+  margin-bottom: 150px;
+  margin-top: 40px;
+}
+
+.puntero {
+  cursor: pointer;
+}
+
+.chat-window {
+  border-radius: 20px;
+  border: 1px solid #4080ff;
+  height: 400px;
+  overflow: hidden;
+  padding: 10px;
+  width: 300px;
+}
+
+.app-mensajes {
+  height: 270px;
+  overflow-y: auto;
+  padding: 5px;
+}
+
+/* Animaciones */
+.animated {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.fast {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.fadein {
+  animation-name: fadein;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
